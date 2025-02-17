@@ -1,0 +1,21 @@
+.mainDivList{
+    margin: 40px 0px 10px 100px;
+}
+.SpecificDiv{
+    background-color: rgb(212, 234, 234);
+    margin: 10px;
+    
+    padding: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column
+;
+}
+
+.divDescription{
+    color: grey;
+    text-align: center;
+    justify-content: center;
+}
