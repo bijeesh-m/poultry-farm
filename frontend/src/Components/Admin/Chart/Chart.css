@@ -8,6 +8,7 @@
     justify-content: center; /* Center horizontally */
     height: 100vh; /* Set the container to fill the whole viewport height */
     /* You can also add a background color or other styles to the container if needed */
+    gap: 100px;
   }
   
   .chart-container {

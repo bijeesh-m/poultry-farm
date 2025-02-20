@@ -6,6 +6,8 @@ import "./AddFarm.css";
 import { addFarmDetails, showUserFarms } from "../../../Services/userApi";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+
+
 function AddFarm() {
   const [farmDetails, setfarmDetails] = useState([]);
   const user = useSelector((state) => state.user.value);
@@ -49,7 +51,6 @@ function AddFarm() {
 
   const onSubmit = async (values, { setSubmitting, resetForm }) => {
     try {
-      console.log("OnClick submitted!");
       const { data } = await addFarmDetails(values, user._id);
       console.log(data, "OnClick submitted!");
 

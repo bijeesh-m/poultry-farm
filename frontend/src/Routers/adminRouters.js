@@ -14,7 +14,6 @@ function adminRouters() {
         <Route path='/userDetails' element={<ListUser/>}/>
         <Route path='/userfarm/:userId' element={<UserFarmPage/>}/>
         <Route path='/farmDetails/:farmId/:userId' element={<FarmDetailsPage/>}/>
-
     </Routes>
   )
 }
